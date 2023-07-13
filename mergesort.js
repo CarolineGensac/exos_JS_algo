@@ -24,6 +24,8 @@ function mergeSort(array) {
   }
   
   const left = array.splice(0, half)
+  // console.log(array);
+  // console.log(left);
   return merge(mergeSort(left),mergeSort(array))
 }
 

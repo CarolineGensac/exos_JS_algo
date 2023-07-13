@@ -1,5 +1,5 @@
 //  exo 2
-const arraysujet2 = [3, 7, 8, 3, 6, 1]
+const arraysujet2 = [10, 7, 8, 3, 6, 1]
 
 function highEnough(arr) {
   let count = 0;

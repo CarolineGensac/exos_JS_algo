@@ -34,6 +34,7 @@ function compareTo(arr, k) {
   if (rest.some(num => isTrueOrFalse(first, num, k))) {
     return true;
   }
+// La méthode some() exécute la fonction callback une seule fois pour chaque élément présent dans le tableau jusqu'à ce qu'elle en trouve un pour lequel callback renvoie une valeur équivalente à true dans un contexte booléen. Si un tel élément est trouvé, some() renvoie immédiatement true.
 
   return compareTo(rest, k);
 }
